@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap');
+
 html {
     font-family:'Orbitron', sans-serif;
 }
@@ -7,7 +9,7 @@ span {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 10px;
     text-align: center;
     text-transform: uppercase;
@@ -36,8 +38,10 @@ h4 {
 
 /* BONUS */
 /* 1 */
+/* Import link from Google fonts with @import url()  */
+/* When linking to a google font in a css file, the link must be at the start of the css file, just like linking at top of html file */
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap');
+
 
 /* 2 */
 h4 {
@@ -57,8 +61,5 @@ body {
     background-image: url(starTrek.jpg);
     background-position: center;
     background-size:cover;
-}
-/* 7 */
-body {
     color: rgba(255, 255, 255, 0.6)
 }
